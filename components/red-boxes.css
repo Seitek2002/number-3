@@ -1,19 +1,33 @@
 .red-boxes{
     margin-top: 100px;
 }
-.left-box{
+.left-box,
+.right-box{
     max-width: 540px;
     background: #F13C6E;
     color: #ffffff;
     padding: 35px 40px;
     box-sizing: border-box;
 }
-.left__title{
+.left__title,
+.right__title{
     font-size: 18px;
     margin-bottom: 25px;
 }
-.left__suptitle{
+.left__suptitle,
+.right__suptitle{
     margin-bottom: 25px;
+}
+.right__btn{
+    color: #ffffff;
+    padding: 9px 29px;
+    border: 2px solid white;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.right__btn:hover{
+    background: #fff;
+    color: #F13C6E;
 }
 .left__e-mail{
     margin-bottom: 25px;
