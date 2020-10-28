@@ -26,7 +26,6 @@
     height: 2px;
     opacity: 0;
     transition: 0.3s;
-    margin: auto;
 }
 .nav__list:hover::before{
     opacity: 1;
@@ -89,7 +88,23 @@
     transform: scale(0.95);
 }
 .category__list{
+    position: relative;
     margin: 30px 0;
+}
+.category__list::before{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background: #F13C6E;
+    width: 0px;
+    height: 2px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.category__list:hover::before{
+    opacity: 1;
+    width: 100%;
 }
 .slide1__content{
     max-width: 1110px;
