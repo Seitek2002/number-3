@@ -1,0 +1,10 @@
+.special-sale{
+    font-family: 'Roboto',sans-serif;
+}
+.sale__title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.sale__box{
+    width: 255px;
+}
