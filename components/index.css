@@ -3,6 +3,7 @@
 @import './header.css';
 @import './slider.css';
 @import './sales.css';
+@import './red-boxes.css';
 .main{
     background: #EFEFEF;
 }
