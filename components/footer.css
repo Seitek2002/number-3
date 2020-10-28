@@ -19,3 +19,35 @@
     color: #828282;
 }
 
+.footer-bottom{
+    margin-top: 60px;
+    border-top: 1px solid #EFEFEF;
+    padding: 37px 0;
+}
+.icons-link{
+    width: 250px;
+}
+.link__item1{
+    border-radius: 30px;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    padding: 15px 11px 10px 11px;
+}
+.link__item2{
+    border-radius: 30px;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    padding: 15px 9px 13px 8px;
+}
+.link__item3{
+    border-radius: 30px;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    padding: 13px 17px 0px 16px;
+}
+.link__item4{
+    border-radius: 30px;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    padding: 13px 12px 0px 11px;
+}
