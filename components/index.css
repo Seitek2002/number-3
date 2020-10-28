@@ -3,3 +3,6 @@
 @import './header.css';
 @import './slider.css';
 @import './sales.css';
+.main{
+    background: #EFEFEF;
+}
