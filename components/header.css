@@ -11,9 +11,27 @@
     justify-content: space-evenly;
 }
 .nav__list{
+    position: relative;
     padding: 16px 30px;
+    transition: 0.3s;
+    box-sizing: border-box;
 }
-
+.nav__list::before{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background: #F13C6E;
+    width: 0px;
+    height: 2px;
+    opacity: 0;
+    transition: 0.3s;
+    margin: auto;
+}
+.nav__list:hover::before{
+    opacity: 1;
+    width: 100%;
+}
 .second-line{
     padding: 20px 0;
     border-bottom: #EFEFEF solid 1px;
