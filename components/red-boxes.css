@@ -1,4 +1,24 @@
 .left-box{
     max-width: 540px;
     background: #F13C6E;
+    color: #ffffff;
+    padding: 35px 40px;
+    box-sizing: border-box;
+}
+.left__title{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.left__suptitle{
+    margin-bottom: 25px;
+}
+.left__e-mail{
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    max-width: 225px;
+    padding: 9px 20px 9px 25px;
+    color: #C4C4C4;
 }
