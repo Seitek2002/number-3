@@ -3,6 +3,11 @@
     padding: 60px 0;
     box-sizing: border-box;
 }
+.under-footer{
+    font-family: 'Roboto',sans-serif;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
 .footer__list{
     max-width: 255px;
 }
@@ -88,5 +93,5 @@
 }
 
 .under-footer{
-    
+    background: #EFEFEF;
 }
