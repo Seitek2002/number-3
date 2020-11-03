@@ -30,16 +30,16 @@ article img{ /*размер изображений слайдера*/
 }
 
 .slide1{
-	background: url(./img/headSlide.png) center no-repeat;
+	background: url(./img/headSlide.webp) center no-repeat;
 }
 .slide2{
-	background: url(./img/headSlide.png) center no-repeat;
+	background: url(./img/headSlide.webp) center no-repeat;
 }
 .slide3{
-	background: url(./img/headSlide.png) center no-repeat;
+	background: url(./img/headSlide.webp) center no-repeat;
 }
 .slide4{
-	background: url(./img/headSlide.png) center no-repeat;
+	background: url(./img/headSlide.webp) center no-repeat;
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
